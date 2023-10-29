@@ -1,0 +1,14 @@
+.boss-head{
+    background-image: url('../../assets/contact/home/chef-service.jpg');
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 850px;
+    height: 220px;
+    background-color: white;
+    padding: 30px 40px;
+    color: rgba(0, 0, 0, 0.695);
+}

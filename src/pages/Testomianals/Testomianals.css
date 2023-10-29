@@ -1,0 +1,8 @@
+.tes-data{
+    text-align: center;
+    padding: 53px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;}

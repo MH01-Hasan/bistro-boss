@@ -1,0 +1,41 @@
+.feature{
+    position: relative;
+    width: 100%;
+    height: 470px;
+   
+}
+
+
+
+.featured-item{
+    background-image: url('../../assets/contact/home/featured.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+  
+    
+    
+}
+
+.feature-body{
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin: auto;
+    width: 982px;
+    padding-top: 120px;
+}
+
+.image{
+    width: 92%;;
+}
+
