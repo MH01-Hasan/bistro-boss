@@ -3,6 +3,8 @@ import {
   } from "react-router-dom";
 import Home from "../pages/Home/Home/Home";
 import Main from "../Layout/Main";
+import Contact from "../pages/Contact/Contact";
+import Dashboard from "../pages/Dashboard/Dashboard";
 
 
 
@@ -15,6 +17,17 @@ import Main from "../Layout/Main";
             path: '/',
             element: <Home></Home>
         },
+        {
+        
+            path: '/contact',
+             element: <Contact></Contact>
+            },
+        {
+            path: '/dashboard',
+            element:<Dashboard></Dashboard>
+          }, 
+        
+       
         
       ]
     },
